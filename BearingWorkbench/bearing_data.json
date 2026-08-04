@@ -1,0 +1,3330 @@
+{
+  "608ZZ": {
+    "code": "608ZZ",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 8.0,
+      "D": 22.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "ZZ",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "627ZZ": {
+    "code": "627ZZ",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 7.0,
+      "D": 22.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "ZZ",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "628ZZ": {
+    "code": "628ZZ",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 8.0,
+      "D": 24.0,
+      "B": 8.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 4.762,
+    "shield": "ZZ",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "629ZZ": {
+    "code": "629ZZ",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 9.0,
+      "D": 26.0,
+      "B": 8.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.556,
+    "shield": "ZZ",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "638ZZ": {
+    "code": "638ZZ",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 8.0,
+      "D": 28.0,
+      "B": 9.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.953,
+    "shield": "ZZ",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "688ZZ": {
+    "code": "688ZZ",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 8.0,
+      "D": 16.0,
+      "B": 5.0
+    },
+    "rmin": 0.20,
+    "balls": 7,
+    "ball_diameter": 2.381,
+    "shield": "ZZ",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6900ZZ": {
+    "code": "6900ZZ",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 22.0,
+      "B": 6.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "ZZ",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6000": {
+    "code": "6000",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 26.0,
+      "B": 8.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 4.762,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6001": {
+    "code": "6001",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 28.0,
+      "B": 8.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.159,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6200": {
+    "code": "6200",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 30.0,
+      "B": 9.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 4.762,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6300": {
+    "code": "6300",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 35.0,
+      "B": 11.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6800": {
+    "code": "6800",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 19.0,
+      "B": 5.0
+    },
+    "rmin": 0.20,
+    "balls": 7,
+    "ball_diameter": 2.778,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6900": {
+    "code": "6900",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 22.0,
+      "B": 6.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR105": {
+    "code": "MR105",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 5.0,
+      "D": 10.0,
+      "B": 4.0
+    },
+    "rmin": 0.20,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "600": {
+    "code": "600",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 26.0,
+      "B": 8.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 4.762,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "601": {
+    "code": "601",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 28.0,
+      "B": 8.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.159,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "602": {
+    "code": "602",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 32.0,
+      "B": 9.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "603": {
+    "code": "603",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 35.0,
+      "B": 10.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "604": {
+    "code": "604",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 42.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "605": {
+    "code": "605",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 47.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 7.144,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "606": {
+    "code": "606",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 55.0,
+      "B": 13.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 7.938,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "607": {
+    "code": "607",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 62.0,
+      "B": 14.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 8.731,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "609": {
+    "code": "609",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 9.0,
+      "D": 24.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 4.365,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "698": {
+    "code": "698",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 8.0,
+      "D": 19.0,
+      "B": 6.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.175,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "688": {
+    "code": "688",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 8.0,
+      "D": 16.0,
+      "B": 5.0
+    },
+    "rmin": 0.20,
+    "balls": 7,
+    "ball_diameter": 2.381,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6002": {
+    "code": "6002",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 32.0,
+      "B": 9.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6003": {
+    "code": "6003",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 35.0,
+      "B": 10.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6004": {
+    "code": "6004",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 42.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6005": {
+    "code": "6005",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 47.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 7.144,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6006": {
+    "code": "6006",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 55.0,
+      "B": 13.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 7.938,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6007": {
+    "code": "6007",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 62.0,
+      "B": 14.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 8.731,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6008": {
+    "code": "6008",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 40.0,
+      "D": 68.0,
+      "B": 15.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 9.525,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6009": {
+    "code": "6009",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 45.0,
+      "D": 75.0,
+      "B": 16.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 10.319,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6010": {
+    "code": "6010",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 50.0,
+      "D": 80.0,
+      "B": 16.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 10.319,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6011": {
+    "code": "6011",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 55.0,
+      "D": 90.0,
+      "B": 18.0
+    },
+    "rmin": 1.10,
+    "balls": 8,
+    "ball_diameter": 11.906,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6012": {
+    "code": "6012",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 60.0,
+      "D": 95.0,
+      "B": 18.0
+    },
+    "rmin": 1.10,
+    "balls": 8,
+    "ball_diameter": 11.906,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6013": {
+    "code": "6013",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 65.0,
+      "D": 100.0,
+      "B": 18.0
+    },
+    "rmin": 1.10,
+    "balls": 8,
+    "ball_diameter": 11.906,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6014": {
+    "code": "6014",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 70.0,
+      "D": 110.0,
+      "B": 20.0
+    },
+    "rmin": 1.10,
+    "balls": 8,
+    "ball_diameter": 13.494,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6015": {
+    "code": "6015",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 75.0,
+      "D": 115.0,
+      "B": 20.0
+    },
+    "rmin": 1.10,
+    "balls": 8,
+    "ball_diameter": 13.494,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6016": {
+    "code": "6016",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 80.0,
+      "D": 125.0,
+      "B": 22.0
+    },
+    "rmin": 1.50,
+    "balls": 8,
+    "ball_diameter": 15.081,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6017": {
+    "code": "6017",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 85.0,
+      "D": 130.0,
+      "B": 22.0
+    },
+    "rmin": 1.50,
+    "balls": 8,
+    "ball_diameter": 15.081,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6018": {
+    "code": "6018",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 90.0,
+      "D": 140.0,
+      "B": 24.0
+    },
+    "rmin": 1.50,
+    "balls": 8,
+    "ball_diameter": 16.669,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6019": {
+    "code": "6019",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 95.0,
+      "D": 145.0,
+      "B": 24.0
+    },
+    "rmin": 1.50,
+    "balls": 8,
+    "ball_diameter": 16.669,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6020": {
+    "code": "6020",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 100.0,
+      "D": 150.0,
+      "B": 24.0
+    },
+    "rmin": 1.50,
+    "balls": 8,
+    "ball_diameter": 16.669,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6201": {
+    "code": "6201",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 32.0,
+      "B": 10.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 5.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6202": {
+    "code": "6202",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 35.0,
+      "B": 11.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6203": {
+    "code": "6203",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 40.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.747,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6204": {
+    "code": "6204",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 47.0,
+      "B": 14.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 7.938,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6205": {
+    "code": "6205",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 52.0,
+      "B": 15.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 8.731,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6206": {
+    "code": "6206",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 62.0,
+      "B": 16.0
+    },
+    "rmin": 1.00,
+    "balls": 9,
+    "ball_diameter": 9.525,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6207": {
+    "code": "6207",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 72.0,
+      "B": 17.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 10.319,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6208": {
+    "code": "6208",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 40.0,
+      "D": 80.0,
+      "B": 18.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 11.112,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6209": {
+    "code": "6209",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 45.0,
+      "D": 85.0,
+      "B": 19.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 11.509,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6210": {
+    "code": "6210",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 50.0,
+      "D": 90.0,
+      "B": 20.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 12.700,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6211": {
+    "code": "6211",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 55.0,
+      "D": 100.0,
+      "B": 21.0
+    },
+    "rmin": 1.50,
+    "balls": 9,
+    "ball_diameter": 13.494,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6212": {
+    "code": "6212",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 60.0,
+      "D": 110.0,
+      "B": 22.0
+    },
+    "rmin": 1.50,
+    "balls": 9,
+    "ball_diameter": 14.288,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6213": {
+    "code": "6213",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 65.0,
+      "D": 120.0,
+      "B": 23.0
+    },
+    "rmin": 1.50,
+    "balls": 9,
+    "ball_diameter": 15.081,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6214": {
+    "code": "6214",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 70.0,
+      "D": 125.0,
+      "B": 24.0
+    },
+    "rmin": 1.50,
+    "balls": 9,
+    "ball_diameter": 15.875,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6215": {
+    "code": "6215",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 75.0,
+      "D": 130.0,
+      "B": 25.0
+    },
+    "rmin": 1.50,
+    "balls": 9,
+    "ball_diameter": 16.669,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6216": {
+    "code": "6216",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 80.0,
+      "D": 140.0,
+      "B": 26.0
+    },
+    "rmin": 2.00,
+    "balls": 9,
+    "ball_diameter": 17.463,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6217": {
+    "code": "6217",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 85.0,
+      "D": 150.0,
+      "B": 28.0
+    },
+    "rmin": 2.00,
+    "balls": 9,
+    "ball_diameter": 18.256,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6218": {
+    "code": "6218",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 90.0,
+      "D": 160.0,
+      "B": 30.0
+    },
+    "rmin": 2.00,
+    "balls": 9,
+    "ball_diameter": 19.050,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6219": {
+    "code": "6219",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 95.0,
+      "D": 170.0,
+      "B": 32.0
+    },
+    "rmin": 2.00,
+    "balls": 9,
+    "ball_diameter": 19.844,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6220": {
+    "code": "6220",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 100.0,
+      "D": 180.0,
+      "B": 34.0
+    },
+    "rmin": 2.00,
+    "balls": 9,
+    "ball_diameter": 20.638,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6301": {
+    "code": "6301",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 37.0,
+      "B": 12.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 7.144,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6302": {
+    "code": "6302",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 42.0,
+      "B": 13.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 7.938,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6303": {
+    "code": "6303",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 47.0,
+      "B": 14.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 8.731,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6304": {
+    "code": "6304",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 52.0,
+      "B": 15.0
+    },
+    "rmin": 1.10,
+    "balls": 8,
+    "ball_diameter": 9.525,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6305": {
+    "code": "6305",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 62.0,
+      "B": 17.0
+    },
+    "rmin": 1.10,
+    "balls": 8,
+    "ball_diameter": 11.112,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6306": {
+    "code": "6306",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 72.0,
+      "B": 19.0
+    },
+    "rmin": 1.10,
+    "balls": 8,
+    "ball_diameter": 12.700,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6307": {
+    "code": "6307",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 80.0,
+      "B": 21.0
+    },
+    "rmin": 1.50,
+    "balls": 8,
+    "ball_diameter": 13.494,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6308": {
+    "code": "6308",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 40.0,
+      "D": 90.0,
+      "B": 23.0
+    },
+    "rmin": 1.50,
+    "balls": 8,
+    "ball_diameter": 15.081,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6309": {
+    "code": "6309",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 45.0,
+      "D": 100.0,
+      "B": 25.0
+    },
+    "rmin": 1.50,
+    "balls": 8,
+    "ball_diameter": 16.669,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6310": {
+    "code": "6310",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 50.0,
+      "D": 110.0,
+      "B": 27.0
+    },
+    "rmin": 2.00,
+    "balls": 8,
+    "ball_diameter": 18.256,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6311": {
+    "code": "6311",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 55.0,
+      "D": 120.0,
+      "B": 29.0
+    },
+    "rmin": 2.00,
+    "balls": 8,
+    "ball_diameter": 19.050,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6312": {
+    "code": "6312",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 60.0,
+      "D": 130.0,
+      "B": 31.0
+    },
+    "rmin": 2.10,
+    "balls": 8,
+    "ball_diameter": 20.638,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6313": {
+    "code": "6313",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 65.0,
+      "D": 140.0,
+      "B": 33.0
+    },
+    "rmin": 2.10,
+    "balls": 8,
+    "ball_diameter": 22.225,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6314": {
+    "code": "6314",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 70.0,
+      "D": 150.0,
+      "B": 35.0
+    },
+    "rmin": 2.10,
+    "balls": 8,
+    "ball_diameter": 23.019,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6315": {
+    "code": "6315",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 75.0,
+      "D": 160.0,
+      "B": 37.0
+    },
+    "rmin": 2.10,
+    "balls": 8,
+    "ball_diameter": 24.606,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6316": {
+    "code": "6316",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 80.0,
+      "D": 170.0,
+      "B": 39.0
+    },
+    "rmin": 2.10,
+    "balls": 8,
+    "ball_diameter": 25.400,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6317": {
+    "code": "6317",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 85.0,
+      "D": 180.0,
+      "B": 41.0
+    },
+    "rmin": 3.00,
+    "balls": 8,
+    "ball_diameter": 26.988,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6318": {
+    "code": "6318",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 90.0,
+      "D": 190.0,
+      "B": 43.0
+    },
+    "rmin": 3.00,
+    "balls": 8,
+    "ball_diameter": 28.575,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6319": {
+    "code": "6319",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 95.0,
+      "D": 200.0,
+      "B": 45.0
+    },
+    "rmin": 3.00,
+    "balls": 8,
+    "ball_diameter": 29.765,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6320": {
+    "code": "6320",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 100.0,
+      "D": 215.0,
+      "B": 47.0
+    },
+    "rmin": 3.00,
+    "balls": 8,
+    "ball_diameter": 31.750,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6801": {
+    "code": "6801",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 21.0,
+      "B": 5.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 2.778,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6802": {
+    "code": "6802",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 24.0,
+      "B": 5.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 2.778,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6803": {
+    "code": "6803",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 26.0,
+      "B": 5.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 2.778,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6804": {
+    "code": "6804",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 32.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6805": {
+    "code": "6805",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 37.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6806": {
+    "code": "6806",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 42.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6807": {
+    "code": "6807",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 47.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6808": {
+    "code": "6808",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 40.0,
+      "D": 52.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6809": {
+    "code": "6809",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 45.0,
+      "D": 58.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6810": {
+    "code": "6810",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 50.0,
+      "D": 65.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6901": {
+    "code": "6901",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 24.0,
+      "B": 6.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.175,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6902": {
+    "code": "6902",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 28.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6903": {
+    "code": "6903",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 30.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6904": {
+    "code": "6904",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 37.0,
+      "B": 9.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.556,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6905": {
+    "code": "6905",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 42.0,
+      "B": 9.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.556,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6906": {
+    "code": "6906",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 47.0,
+      "B": 9.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.556,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6907": {
+    "code": "6907",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 55.0,
+      "B": 10.0
+    },
+    "rmin": 0.60,
+    "balls": 7,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6908": {
+    "code": "6908",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 40.0,
+      "D": 62.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 7,
+    "ball_diameter": 7.144,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6909": {
+    "code": "6909",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 45.0,
+      "D": 68.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 7,
+    "ball_diameter": 7.144,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6910": {
+    "code": "6910",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 50.0,
+      "D": 72.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 7,
+    "ball_diameter": 7.144,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "16001": {
+    "code": "16001",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 28.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 4.365,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "16002": {
+    "code": "16002",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 32.0,
+      "B": 8.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.159,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "16003": {
+    "code": "16003",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 35.0,
+      "B": 8.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.159,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "16004": {
+    "code": "16004",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 42.0,
+      "B": 8.0
+    },
+    "rmin": 0.60,
+    "balls": 7,
+    "ball_diameter": 5.159,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "16005": {
+    "code": "16005",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 47.0,
+      "B": 8.0
+    },
+    "rmin": 0.60,
+    "balls": 7,
+    "ball_diameter": 5.159,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "16006": {
+    "code": "16006",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 55.0,
+      "B": 9.0
+    },
+    "rmin": 1.00,
+    "balls": 7,
+    "ball_diameter": 5.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "16007": {
+    "code": "16007",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 62.0,
+      "B": 9.0
+    },
+    "rmin": 1.00,
+    "balls": 7,
+    "ball_diameter": 5.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "16008": {
+    "code": "16008",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 40.0,
+      "D": 68.0,
+      "B": 9.0
+    },
+    "rmin": 1.00,
+    "balls": 7,
+    "ball_diameter": 5.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "16009": {
+    "code": "16009",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 45.0,
+      "D": 75.0,
+      "B": 10.0
+    },
+    "rmin": 1.00,
+    "balls": 7,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "16010": {
+    "code": "16010",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 50.0,
+      "D": 80.0,
+      "B": 10.0
+    },
+    "rmin": 1.00,
+    "balls": 7,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61800": {
+    "code": "61800",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 19.0,
+      "B": 5.0
+    },
+    "rmin": 0.20,
+    "balls": 7,
+    "ball_diameter": 2.778,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61801": {
+    "code": "61801",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 21.0,
+      "B": 5.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 2.778,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61802": {
+    "code": "61802",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 24.0,
+      "B": 5.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 2.778,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61803": {
+    "code": "61803",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 26.0,
+      "B": 5.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 2.778,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61804": {
+    "code": "61804",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 32.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61805": {
+    "code": "61805",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 37.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61806": {
+    "code": "61806",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 42.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61807": {
+    "code": "61807",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 47.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61808": {
+    "code": "61808",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 40.0,
+      "D": 52.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61809": {
+    "code": "61809",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 45.0,
+      "D": 58.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61900": {
+    "code": "61900",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 22.0,
+      "B": 6.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61901": {
+    "code": "61901",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 24.0,
+      "B": 6.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.175,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61902": {
+    "code": "61902",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 28.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61903": {
+    "code": "61903",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 30.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61904": {
+    "code": "61904",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 37.0,
+      "B": 9.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.556,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61905": {
+    "code": "61905",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 42.0,
+      "B": 9.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.556,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61906": {
+    "code": "61906",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 47.0,
+      "B": 9.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.556,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61907": {
+    "code": "61907",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 55.0,
+      "B": 10.0
+    },
+    "rmin": 0.60,
+    "balls": 7,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61908": {
+    "code": "61908",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 40.0,
+      "D": 62.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 7,
+    "ball_diameter": 7.144,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61909": {
+    "code": "61909",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 45.0,
+      "D": 68.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 7,
+    "ball_diameter": 7.144,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "61910": {
+    "code": "61910",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 50.0,
+      "D": 72.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 7,
+    "ball_diameter": 7.144,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR41": {
+    "code": "MR41",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 1.5,
+      "D": 4.0,
+      "B": 1.2
+    },
+    "rmin": 0.05,
+    "balls": 6,
+    "ball_diameter": 0.794,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR42": {
+    "code": "MR42",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 2.0,
+      "D": 5.0,
+      "B": 1.5
+    },
+    "rmin": 0.05,
+    "balls": 6,
+    "ball_diameter": 0.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR52": {
+    "code": "MR52",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 2.0,
+      "D": 5.0,
+      "B": 2.0
+    },
+    "rmin": 0.05,
+    "balls": 6,
+    "ball_diameter": 0.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR62": {
+    "code": "MR62",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 2.5,
+      "D": 6.0,
+      "B": 2.0
+    },
+    "rmin": 0.08,
+    "balls": 6,
+    "ball_diameter": 1.191,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR72": {
+    "code": "MR72",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 3.0,
+      "D": 7.0,
+      "B": 2.0
+    },
+    "rmin": 0.08,
+    "balls": 6,
+    "ball_diameter": 1.191,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR83": {
+    "code": "MR83",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 3.0,
+      "D": 8.0,
+      "B": 3.0
+    },
+    "rmin": 0.08,
+    "balls": 7,
+    "ball_diameter": 1.191,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR84": {
+    "code": "MR84",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 4.0,
+      "D": 8.0,
+      "B": 3.0
+    },
+    "rmin": 0.08,
+    "balls": 7,
+    "ball_diameter": 1.191,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR93": {
+    "code": "MR93",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 3.0,
+      "D": 9.0,
+      "B": 4.0
+    },
+    "rmin": 0.08,
+    "balls": 6,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR104": {
+    "code": "MR104",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 4.0,
+      "D": 10.0,
+      "B": 4.0
+    },
+    "rmin": 0.10,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR115": {
+    "code": "MR115",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 5.0,
+      "D": 11.0,
+      "B": 4.0
+    },
+    "rmin": 0.10,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR116": {
+    "code": "MR116",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 6.0,
+      "D": 11.0,
+      "B": 4.0
+    },
+    "rmin": 0.10,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR117": {
+    "code": "MR117",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 7.0,
+      "D": 11.0,
+      "B": 4.0
+    },
+    "rmin": 0.10,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR126": {
+    "code": "MR126",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 6.0,
+      "D": 12.0,
+      "B": 4.0
+    },
+    "rmin": 0.10,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR128": {
+    "code": "MR128",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 8.0,
+      "D": 12.0,
+      "B": 4.0
+    },
+    "rmin": 0.10,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR136": {
+    "code": "MR136",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 6.0,
+      "D": 13.0,
+      "B": 5.0
+    },
+    "rmin": 0.15,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR137": {
+    "code": "MR137",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 7.0,
+      "D": 13.0,
+      "B": 5.0
+    },
+    "rmin": 0.15,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR138": {
+    "code": "MR138",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 8.0,
+      "D": 13.0,
+      "B": 5.0
+    },
+    "rmin": 0.15,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "MR148": {
+    "code": "MR148",
+    "family": "Miniature",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 8.0,
+      "D": 14.0,
+      "B": 5.0
+    },
+    "rmin": 0.15,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R1": {
+    "code": "R1",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 1.4,
+      "D": 4.8,
+      "B": 1.6
+    },
+    "rmin": 0.05,
+    "balls": 6,
+    "ball_diameter": 0.762,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R1-5": {
+    "code": "R1-5",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 2.4,
+      "D": 6.4,
+      "B": 2.0
+    },
+    "rmin": 0.05,
+    "balls": 6,
+    "ball_diameter": 1.191,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R2": {
+    "code": "R2",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 3.2,
+      "D": 9.5,
+      "B": 3.0
+    },
+    "rmin": 0.08,
+    "balls": 6,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R2-5": {
+    "code": "R2-5",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 4.0,
+      "D": 11.1,
+      "B": 3.2
+    },
+    "rmin": 0.08,
+    "balls": 7,
+    "ball_diameter": 1.588,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R3": {
+    "code": "R3",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 4.8,
+      "D": 12.7,
+      "B": 3.6
+    },
+    "rmin": 0.10,
+    "balls": 7,
+    "ball_diameter": 1.984,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R4": {
+    "code": "R4",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 6.4,
+      "D": 15.9,
+      "B": 4.2
+    },
+    "rmin": 0.10,
+    "balls": 7,
+    "ball_diameter": 2.381,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R5": {
+    "code": "R5",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 7.9,
+      "D": 19.1,
+      "B": 4.8
+    },
+    "rmin": 0.15,
+    "balls": 7,
+    "ball_diameter": 2.778,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R6": {
+    "code": "R6",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 9.5,
+      "D": 22.2,
+      "B": 5.6
+    },
+    "rmin": 0.15,
+    "balls": 7,
+    "ball_diameter": 3.572,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R8": {
+    "code": "R8",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 12.7,
+      "D": 28.6,
+      "B": 6.4
+    },
+    "rmin": 0.20,
+    "balls": 7,
+    "ball_diameter": 4.365,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R10": {
+    "code": "R10",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 15.9,
+      "D": 34.9,
+      "B": 8.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.556,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R12": {
+    "code": "R12",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 19.1,
+      "D": 41.3,
+      "B": 9.5
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 6.747,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R14": {
+    "code": "R14",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 22.2,
+      "D": 47.6,
+      "B": 11.1
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 7.938,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "R16": {
+    "code": "R16",
+    "family": "Miniature",
+    "standard": "ANSI",
+    "dimensions": {
+      "d": 25.4,
+      "D": 50.8,
+      "B": 12.7
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 7.938,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7000": {
+    "code": "7000",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 26.0,
+      "B": 8.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 4.762,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7001": {
+    "code": "7001",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 28.0,
+      "B": 8.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.159,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7002": {
+    "code": "7002",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 32.0,
+      "B": 9.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 5.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7003": {
+    "code": "7003",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 35.0,
+      "B": 10.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7004": {
+    "code": "7004",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 42.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7005": {
+    "code": "7005",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 47.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 7.144,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7006": {
+    "code": "7006",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 55.0,
+      "B": 13.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 7.938,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7007": {
+    "code": "7007",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 62.0,
+      "B": 14.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 8.731,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7008": {
+    "code": "7008",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 40.0,
+      "D": 68.0,
+      "B": 15.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 9.525,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7009": {
+    "code": "7009",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 45.0,
+      "D": 75.0,
+      "B": 16.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 10.319,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7010": {
+    "code": "7010",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 50.0,
+      "D": 80.0,
+      "B": 16.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 10.319,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7200": {
+    "code": "7200",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 30.0,
+      "B": 9.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 4.762,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7201": {
+    "code": "7201",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 32.0,
+      "B": 10.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 5.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7202": {
+    "code": "7202",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 35.0,
+      "B": 11.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7203": {
+    "code": "7203",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 40.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.747,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7204": {
+    "code": "7204",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 47.0,
+      "B": 14.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 7.938,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7205": {
+    "code": "7205",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 52.0,
+      "B": 15.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 8.731,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7206": {
+    "code": "7206",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 62.0,
+      "B": 16.0
+    },
+    "rmin": 1.00,
+    "balls": 9,
+    "ball_diameter": 9.525,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7207": {
+    "code": "7207",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 72.0,
+      "B": 17.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 10.319,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7208": {
+    "code": "7208",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 40.0,
+      "D": 80.0,
+      "B": 18.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 11.112,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7209": {
+    "code": "7209",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 45.0,
+      "D": 85.0,
+      "B": 19.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 11.509,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "7210": {
+    "code": "7210",
+    "family": "AngularContact",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 50.0,
+      "D": 90.0,
+      "B": 20.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 12.700,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6901ZZ": {
+    "code": "6901ZZ",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 24.0,
+      "B": 6.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.175,
+    "shield": "ZZ",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "6902ZZ": {
+    "code": "6902ZZ",
+    "family": "DeepGroove",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 28.0,
+      "B": 7.0
+    },
+    "rmin": 0.30,
+    "balls": 7,
+    "ball_diameter": 3.969,
+    "shield": "ZZ",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "4200": {
+    "code": "4200",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 30.0,
+      "B": 14.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 4.762,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "4201": {
+    "code": "4201",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 32.0,
+      "B": 14.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 5.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "4202": {
+    "code": "4202",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 35.0,
+      "B": 15.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "4203": {
+    "code": "4203",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 40.0,
+      "B": 16.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.747,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "4204": {
+    "code": "4204",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 47.0,
+      "B": 18.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 7.938,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "4205": {
+    "code": "4205",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 52.0,
+      "B": 18.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 8.731,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "4206": {
+    "code": "4206",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 62.0,
+      "B": 20.0
+    },
+    "rmin": 1.00,
+    "balls": 9,
+    "ball_diameter": 9.525,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "1200": {
+    "code": "1200",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 10.0,
+      "D": 30.0,
+      "B": 9.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 4.762,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "1201": {
+    "code": "1201",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 12.0,
+      "D": 32.0,
+      "B": 10.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 5.953,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "1202": {
+    "code": "1202",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 15.0,
+      "D": 35.0,
+      "B": 11.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.350,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "1203": {
+    "code": "1203",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 17.0,
+      "D": 40.0,
+      "B": 12.0
+    },
+    "rmin": 0.60,
+    "balls": 8,
+    "ball_diameter": 6.747,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "1204": {
+    "code": "1204",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 20.0,
+      "D": 47.0,
+      "B": 14.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 7.938,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "1205": {
+    "code": "1205",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 25.0,
+      "D": 52.0,
+      "B": 15.0
+    },
+    "rmin": 1.00,
+    "balls": 8,
+    "ball_diameter": 8.731,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "1206": {
+    "code": "1206",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 30.0,
+      "D": 62.0,
+      "B": 16.0
+    },
+    "rmin": 1.00,
+    "balls": 9,
+    "ball_diameter": 9.525,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "1207": {
+    "code": "1207",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 35.0,
+      "D": 72.0,
+      "B": 17.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 10.319,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "1208": {
+    "code": "1208",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 40.0,
+      "D": 80.0,
+      "B": 18.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 11.112,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "1209": {
+    "code": "1209",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 45.0,
+      "D": 85.0,
+      "B": 19.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 11.509,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  },
+  "1210": {
+    "code": "1210",
+    "family": "SelfAligning",
+    "standard": "ISO15",
+    "dimensions": {
+      "d": 50.0,
+      "D": 90.0,
+      "B": 20.0
+    },
+    "rmin": 1.10,
+    "balls": 9,
+    "ball_diameter": 12.700,
+    "shield": "Open",
+    "cage": "Steel",
+    "clearance": "CN"
+  }
+}

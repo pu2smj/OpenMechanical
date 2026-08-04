@@ -1,0 +1,108 @@
+===============================================================================
+  OpenMechanical Workbench — Translation Generation Guide
+===============================================================================
+
+This document describes the steps to generate and maintain translation files
+for the OpenMechanical FreeCAD workbench.
+
+-------------------------------------------------------------------------------
+1. Prerequisites
+-------------------------------------------------------------------------------
+
+- Qt Linguist Tools (lupdate, lrelease) must be installed and available in PATH.
+  On Debian/Ubuntu:  sudo apt-get install qttools5-dev-tools
+  On Fedora:         sudo dnf install qt6-linguist qt6-devel
+  On Arch:           sudo pacman -S qt6-tools
+
+- Python 3 (for the compile/update scripts)
+
+-------------------------------------------------------------------------------
+2. Extracting Strings (lupdate)
+-------------------------------------------------------------------------------
+
+Run the following from the project root directory:
+
+    python Resources/translations/update_translations.py
+
+This scans all .py and .ui files and updates the master template:
+    Resources/translations/OpenMechanical.ts
+
+Alternatively, use the shell script:
+
+    cd Resources/translations
+    ./update_translation.sh -U
+
+-------------------------------------------------------------------------------
+3. Translating Strings (Qt Linguist)
+-------------------------------------------------------------------------------
+
+1. Open Qt Linguist
+2. File > Open → select OpenMechanical.ts (or OpenMechanical_<locale>.ts)
+3. Translate each <source> string into the target language
+4. File > Release to save and compile
+
+For batch translation, use the shell script:
+
+    cd Resources/translations
+    ./update_translation.sh -u pt-BR    # Update Portuguese strings
+    ./update_translation.sh -r pt-BR    # Release (compile) Portuguese
+
+-------------------------------------------------------------------------------
+4. Compiling Translations (lrelease)
+-------------------------------------------------------------------------------
+
+To compile a single .ts file to .qm:
+
+    lrelease OpenMechanical_pt-BR.ts
+
+To compile all translations at once:
+
+    python Resources/translations/compile_translations.py
+
+Or using the shell script:
+
+    cd Resources/translations
+    ./update_translation.sh -R
+
+The compiled .qm files are placed in Resources/translations/.
+
+-------------------------------------------------------------------------------
+5. Adding a New Language
+-------------------------------------------------------------------------------
+
+1. Copy the master template:
+       cp OpenMechanical.ts OpenMechanical_<locale>.ts
+
+2. Open OpenMechanical_<locale>.ts in Qt Linguist and translate all strings.
+
+3. Compile to .qm:
+       lrelease OpenMechanical_<locale>.ts
+
+4. The .qm file will be automatically loaded at runtime by load_translations()
+   in OpenMechanicalWorkbench.py, matching the system locale.
+
+-------------------------------------------------------------------------------
+6. File Naming Convention
+-------------------------------------------------------------------------------
+
+Source template:    OpenMechanical.ts
+English:            OpenMechanical_en.ts
+Portuguese (BR):    OpenMechanical_pt-BR.ts
+Compiled binary:    OpenMechanical_<locale>.qm
+
+-------------------------------------------------------------------------------
+7. Runtime Loading
+-------------------------------------------------------------------------------
+
+At workbench initialization, OpenMechanicalWorkbench.py calls load_translations()
+which:
+  1. Detects the system locale via QLocale.system().name()
+  2. Looks for OpenMechanical_<locale>.qm in Resources/translations/
+  3. Installs the translator if found
+
+If no matching translation is found, the workbench falls back to the source
+strings (English for commands, Portuguese for dialogs).
+
+===============================================================================
+  End of Guide
+===============================================================================

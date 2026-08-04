@@ -1,0 +1,13 @@
+{
+  "addon_id": "OpenMechanical",
+  "migrated": false,
+  "first_installed": "2026-07-30T10:58:22.236902+00:00",
+  "last_updated": "2026-07-30T10:58:22.236902+00:00",
+  "branch_display_name": "Master",
+  "extra_files": [],
+  "freecad_version": [
+    1,
+    1,
+    3
+  ]
+}

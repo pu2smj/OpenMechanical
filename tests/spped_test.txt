@@ -1,0 +1,33 @@
+# Teste rápido no console do FreeCAD
+# ----------------------------------------------------- 
+
+import FreeCADGui as Gui
+wb = Gui.activeWorkbench()
+print(f"Workbench ativa: {wb.MenuText if wb else 'Nenhuma'}")
+
+# Listar todas as bancadas
+print(Gui.listWorkbenches())
+
+# Verificar comandos registrados
+for cmd in ["BearingCommand", "BushingCommand", "CouplingCommand", "ORingCommand", "SealCommand"]:
+    try:
+        Gui.getCommand(cmd)
+        print(f"? {cmd} registrado")
+    except:
+        print(f"? {cmd} NÃO registrado")
+		  
+		 
+# ----------------------------------------------------- 
+
+import xml.etree.ElementTree as ET
+import os
+
+# Carrega e valida o XML
+try:
+    tree = ET.parse('Package.xml')
+    root = tree.getroot()
+    print("? Package.xml é válido!")
+    print(f"Nome: {root.find('Name').text}")
+    print(f"Versão: {root.find('Version').text}")
+except Exception as e:
+    print(f"? Erro no Package.xml: {e}")

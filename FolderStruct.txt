@@ -1,0 +1,15 @@
+OpenMechanicalWorkbench/
++-- Init.py                     # Inicialização principal
++-- InitGui.py                  # Inicialização da GUI
++-- OpenMechanicalWorkbench.py  # Classe da bancada
++-- Resources/
+    +-- icons/
+        +-- OpenMechanicalWorkbench.svg
+        +-- Bearing.svg
+        +-- Bushing.svg
+        +-- Coupling.svg
+        +-- ORing.svg
+        +-- Seal.svg
++--docs
++--examples
++--tests
