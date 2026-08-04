@@ -31,8 +31,9 @@ OpenMechanical/
 │       ├── OpenMechanical_pt-BR.ts     # Brazilian Portuguese translation
 │       ├── compile_translations.py     # Compile .ts → .qm with lrelease
 │       ├── update_translations.py      # Update .ts from source with lupdate
-│       ├── update_translation.sh       # Shell script for translator workflow
+│       ├── TRANSLATION_GUIDE.txt       # Step-by-step translation guide
 │       └── README.md                   # Translator guide
+├── crowdin.yml                # Crowdin CLI configuration for collaborative translation
 ├── BearingWorkbench/          # Most developed library — see below
 ├── ORingWorkbench/            # Parametric library, data-driven from 4 normalized CSV files
 │   ├── o-ring_pol.csv         # AS568 standard sizes (inch + mm equivalents), key = as568 dash (001-475)
@@ -101,6 +102,13 @@ See `compile_translations.py` → `supported_locales` dict for the full list.
 2. Translate all `<source>` strings in the `.ts` file
 3. Compile to `.qm`
 4. Place `.qm` in `Resources/translations/`
+
+### Crowdin (Optional)
+
+For collaborative translation, Crowdin is supported via `crowdin.yml`:
+1. Push strings to Crowdin: `crowdin upload sources`
+2. Translate on the Crowdin platform
+3. Download translations: `crowdin download`
 
 ---
 

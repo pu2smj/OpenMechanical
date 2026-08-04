@@ -1,31 +1,50 @@
-# Sobre tradues do OpenMechanical Workbench
+# OpenMechanical Workbench — Translation System
 
-## Estrutura
+This directory contains the internationalization (i18n) system for the
+**OpenMechanical** FreeCAD workbench, based on the Qt `.ts`/`.qm` format —
+the standard used by all FreeCAD workbenches.
 
-- `OpenMechanical.ts` — arquivo modelo (fonte) para extrao de strings
-- `OpenMechanical_en.ts` — traduo para Ingls (padro)
-- `OpenMechanical_pt-BR.ts` — traduo para Portugus (Brasil)
-- `OpenMechanical_<locale>.qm` — arquivos compilados gerados por `lrelease`
+## Files
 
-## Fluxo do Tradutor
+| File                          | Description                                         |
+|-------------------------------|------------------------------------------------------|
+| `OpenMechanical.ts`           | Master template with all source strings             |
+| `OpenMechanical_en.ts`        | English translation (default language)              |
+| `OpenMechanical_pt-BR.ts`     | Brazilian Portuguese translation                    |
+| `OpenMechanical_<locale>.ts`  | Translation for another language                    |
+| `OpenMechanical_<locale>.qm`| Compiled binary loaded at runtime                   |
+| `compile_translations.py`     | Compiles `.ts` → `.qm` with `lrelease`              |
+| `update_translations.py`      | Extracts strings from source with `lupdate`         |
+| `TRANSLATION_GUIDE.txt`       | Step-by-step guide for translators                  |
 
-1. Atualize as strings fonte:
-   ```
-   python compile_translations.py
-   ```
-2. Abra o arquivo `.ts` no Qt Linguist e traduza
-3. Compile para `.qm`:
-   ```
-   lrelease OpenMechanical_<locale>.ts
-   ```
+## Quick Start
 
-## Locales Suportados (FreeCAD)
+For detailed instructions, see **`TRANSLATION_GUIDE.txt`** in this directory.
+Summary:
 
-Veja `compile_translations.py` para a lista completa de locales.
+1. **Extract strings** — `python compile_translations.py` (runs `lupdate`)
+2. **Translate** — open the `.ts` file in Qt Linguist and fill in translations
+3. **Compile** — `lrelease OpenMechanical_<locale>.ts` → generates `.qm`
+4. The `.qm` file is automatically loaded by `load_translations()` in
+   `OpenMechanicalWorkbench.py` based on the system locale.
 
-## Adicionando um Novo Idioma
+## Adding a New Language
 
-1. Crie `OpenMechanical_<locale>.ts` copiando o modelo
-2. Traduza as strings
-3. Compile para `.qm`
-4. Coloque o `.qm` em `Resources/translations/`
+1. Copy `OpenMechanical.ts` → `OpenMechanical_<locale>.ts`
+2. Open in Qt Linguist and translate all strings
+3. Compile to `.qm`
+4. Place the `.qm` file in `Resources/translations/`
+
+## Translation Loading
+
+Translations are loaded at workbench initialization via `load_translations()`
+in `OpenMechanicalWorkbench.py`:
+
+```python
+def Initialize(self):
+    load_translations()
+    # ... rest of initialization
+```
+
+The loader detects the system locale and attempts to load
+`OpenMechanical_<locale>.qm` from the translations directory.
