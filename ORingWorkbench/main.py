@@ -15,7 +15,7 @@ from ORingGeometry import ORingGeometry
 
 
 class ORing:
-    def __init__(self, key, data_dir=None):
+    def __init__(self, key, data_dir=None, color=""):
         self.data = ORingData(data_dir)
         self.record = self.data.get_record(key)
         self.key = self.record.key
@@ -27,9 +27,10 @@ class ORing:
         self.catalogo = self.record.catalogo
         self.codigo = self.record.codigo
         self.tabela = self.record.tabela
+        self.color = color
 
     def build(self):
-        builder = ORingGeometry(self.record)
+        builder = ORingGeometry(self.record, self.color)
         return builder.generate()
 
 
@@ -39,7 +40,7 @@ class ORing:
 if __name__ == "__main__":
     from ORingSelectionDialog import select_oring
 
-    selected_key = select_oring()
+    selected_key, selected_color = select_oring()
     if selected_key:
-        ring = ORing(selected_key)
+        ring = ORing(selected_key, color=selected_color)
         ring.build()

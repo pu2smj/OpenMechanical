@@ -249,6 +249,10 @@
         <translation></translation>
     </message>
     <message>
+        <source>Color:</source>
+        <translation></translation>
+    </message>
+    <message>
         <source>Generate O-Ring</source>
         <translation></translation>
     </message>

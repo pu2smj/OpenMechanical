@@ -17,8 +17,9 @@ from ORingUtils import ORingUtils
 
 
 class ORingGeometry:
-    def __init__(self, ring_record):
+    def __init__(self, ring_record, color=""):
         self.ring = ring_record
+        self.color = color
 
     def build_torus(self):
         return Part.makeTorus(self.ring.major_radius, self.ring.minor_radius)
@@ -48,7 +49,7 @@ class ORingGeometry:
             pass
 
         try:
-            ORingUtils.set_color(obj)
+            ORingUtils.set_color(obj, self.color)
         except Exception:
             pass
 

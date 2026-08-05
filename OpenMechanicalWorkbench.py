@@ -170,11 +170,11 @@ def make_oring():
         from ORingWorkbench.ORingSelectionDialog import select_oring
         from ORingWorkbench.main import ORing
 
-        selected = select_oring()
+        selected, selected_color = select_oring()
 
         if selected:
             App.Console.PrintMessage(f"OpenMechanical: O-ring selected: {selected}\n")
-            ring = ORing(selected)
+            ring = ORing(selected, color=selected_color)
             ring.build()
             fit_view()
             App.Console.PrintMessage("OpenMechanical: O-ring generated successfully!\n")

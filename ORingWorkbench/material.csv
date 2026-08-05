@@ -1,5 +1,15 @@
-material;polimero;dureza_shore_a;temperatura_c
-FKM (Viton);FKM (fluor-carbono);75;"-23 a +200 (cont.); -15 a +230 (curto)"
-NBR;Borracha nitrílica;não informada;-40 a +100
-NBR (N 0674-70);NBR (nitrílico);70;"-31 a +100 (cont.); -25 a +120 (curto)"
-Silicone (MQ);Silicone (MQ);70;"-55 a +200 (cont.); -50 a +230 (curto)"
+material;polimero;dureza_shore_a;temperatura_c;Collor
+FKM (Viton);FKM (flúor-carbono);75;-23 a +200;Black,Green,Red
+NBR;Borracha nitrílica;70;-40 a +100;Black,White
+NBR (N 0674-70);NBR (nitrílico);70;-31 a +100;Black
+Silicone (MQ);Silicone (MQ);70;-55 a +200;Red
+EPDM;Etileno-propileno-dieno;70;-45 a +150;Black
+PTFE;Politetrafluoretileno;55;-200 a +260;White
+TES;Encapsulado PTFE com núcleo de Silicone/FKM;70;-60 a +200;White,Red
+PFAS;Perfluoroelastômero (FFKM);75;-15 a +325;Black,Red
+HSN;Nitrílica Altamente Saturada (HNBR);70;-30 a +150;Green
+HNBR;Borracha nitrílica Hidrogenada;70;-30 a +150;Green
+VITON;Flúor-elastômero (FKM);75;-20 a +200;Black
+AFLAS;Tetrafluoroetileno-propileno (FEPM);75;-5 a +230;Black
+NEOPRENE;Borracha de Cloropreno (CR);70;-40 a +120;Black
+FLUOROSILICONE;Fluorosilicone (FVMQ);70;-60 a +175;Blue

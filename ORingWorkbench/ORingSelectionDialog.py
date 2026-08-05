@@ -113,6 +113,14 @@ class ORingSelectionDialog(QtWidgets.QDialog):
         info_layout.addWidget(QtWidgets.QLabel(QtCore.QCoreApplication.translate("ORingSelectionDialog", "Polymer:")), 4, 2)
         info_layout.addWidget(self.label_polimero, 4, 3)
 
+        color_layout = QtWidgets.QHBoxLayout()
+        color_layout.addWidget(QtWidgets.QLabel(QtCore.QCoreApplication.translate("ORingSelectionDialog", "Color:")))
+        self.combo_color = QtWidgets.QComboBox()
+        self.combo_color.setMinimumHeight(25)
+        color_layout.addWidget(self.combo_color)
+        color_layout.addStretch()
+        info_layout.addLayout(color_layout, 5, 0, 1, 4)
+
         info_group.setLayout(info_layout)
         layout.addWidget(info_group)
 
@@ -200,6 +208,15 @@ class ORingSelectionDialog(QtWidgets.QDialog):
             self.label_de.setText(_fmt(record.de_externo))
             self.label_material.setText(record.material or "-")
             self.label_polimero.setText(record.polimero or "-")
+
+            self.combo_color.blockSignals(True)
+            self.combo_color.clear()
+            if record.collor:
+                colors = [c.strip() for c in record.collor.split(",") if c.strip()]
+                for color in colors:
+                    self.combo_color.addItem(color)
+            self.combo_color.blockSignals(False)
+
             self.btn_generate.setEnabled(True)
         else:
             self.btn_generate.setEnabled(False)
@@ -212,15 +229,20 @@ class ORingSelectionDialog(QtWidgets.QDialog):
             self.label_de.setText("-")
             self.label_material.setText("-")
             self.label_polimero.setText("-")
+            self.combo_color.clear()
 
     def _on_generate(self):
         record = self._current_record()
         if record is not None:
             self.selected_key = record.key
+            self.selected_color = self.combo_color.currentText()
             self.accept()
 
     def get_selected_key(self):
         return self.selected_key
+
+    def get_selected_color(self):
+        return getattr(self, 'selected_color', "")
 
 
 def select_oring(data_dir=None):
@@ -235,5 +257,5 @@ def select_oring(data_dir=None):
         result = dialog.exec_()
 
     if result:
-        return dialog.get_selected_key()
-    return None
+        return dialog.get_selected_key(), dialog.get_selected_color()
+    return None, ""

@@ -249,6 +249,10 @@
         <translation>Polímero:</translation>
     </message>
     <message>
+        <source>Color:</source>
+        <translation>Cor:</translation>
+    </message>
+    <message>
         <source>Generate O-Ring</source>
         <translation>Gerar Anel O</translation>
     </message>

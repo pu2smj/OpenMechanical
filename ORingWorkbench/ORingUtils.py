@@ -28,9 +28,19 @@ class ORingUtils:
             pass
 
     @staticmethod
-    def set_color(obj):
+    def set_color(obj, color_name=""):
+        """Aplica cor ao objeto com base no nome da cor."""
+        color_map = {
+            "Black": (0.10, 0.10, 0.10),
+            "White": (0.90, 0.90, 0.90),
+            "Red": (0.80, 0.10, 0.10),
+            "Green": (0.10, 0.70, 0.10),
+            "Brown": (0.55, 0.35, 0.15),
+            "Blue": (0.10, 0.30, 0.80),
+        }
         try:
             if hasattr(obj, "ViewObject") and obj.ViewObject:
-                obj.ViewObject.ShapeColor = (0.10, 0.10, 0.10)
+                rgb = color_map.get(color_name.strip(), (0.10, 0.10, 0.10))
+                obj.ViewObject.ShapeColor = rgb
         except Exception:
             pass

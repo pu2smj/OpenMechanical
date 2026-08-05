@@ -30,7 +30,8 @@ class ORingRecord:
 
     def __init__(self, key, catalogo, tabela, codigo, referencia, norma,
                  di_interno, tolerancia_di, secao_w, tolerancia_w,
-                 de_externo, material, polimero, dureza_shore_a, temperatura):
+                 de_externo, material, polimero, dureza_shore_a, temperatura,
+                 collor=""):
         self.key = key
         self.catalogo = catalogo
         self.tabela = tabela
@@ -46,6 +47,7 @@ class ORingRecord:
         self.polimero = polimero
         self.dureza_shore_a = dureza_shore_a
         self.temperatura = temperatura
+        self.collor = collor
 
     @property
     def major_radius(self):
@@ -88,6 +90,7 @@ class ORingData:
                 "polimero": (row.get("polimero") or "").strip(),
                 "dureza_shore_a": (row.get("dureza_shore_a") or "").strip(),
                 "temperatura": (row.get("temperatura_c") or "").strip(),
+                "collor": (row.get("Collor") or "").strip(),
             }
 
     def _load_sizes(self):
@@ -154,6 +157,7 @@ class ORingData:
                 polimero=mat.get("polimero", ""),
                 dureza_shore_a=mat.get("dureza_shore_a", ""),
                 temperatura=mat.get("temperatura", ""),
+                collor=mat.get("collor", ""),
             )
             self.records.append(record)
 
